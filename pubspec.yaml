@@ -39,7 +39,7 @@ dependencies:
   bloc: ^8.1.4
   hexcolor: ^3.0.1
   flutter_svg: ^2.0.10+1
-
+  fl_chart: ^0.68.0
 dev_dependencies:
   flutter_test:
     sdk: flutter
