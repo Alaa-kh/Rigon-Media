@@ -8,12 +8,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:rigon/main.dart';
+import 'package:rigon/rigon_media_app.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
-    await tester.pumpWidget(const RigoMedia());
+    await tester.pumpWidget(const RigoMediaApp());
 
     // Verify that our counter starts at 0.
     expect(find.text('0'), findsOneWidget);
