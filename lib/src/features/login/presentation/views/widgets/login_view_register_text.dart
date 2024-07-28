@@ -16,6 +16,6 @@ class LoginViewRegisterText extends StatelessWidget {
                   text: 'Register Here',
                   style: Styles.titleSmall
                       .copyWith(fontWeight: FontWeight.w700, color: darkClr))
-            ]));
+            ])).animate().slideX(duration: 1000.ms);
   }
 }

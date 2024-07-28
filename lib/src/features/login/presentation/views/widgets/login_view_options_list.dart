@@ -12,10 +12,15 @@ class LoginViewOptionsList extends StatelessWidget {
             shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(8),
                 side: const BorderSide(color: borderClr)),
-            leading: SvgPicture.asset(loginViewOptionsModelList[index].icon),
+            leading: SvgPicture.asset(loginViewOptionsModelList[index].icon)
+                .animate()
+                .rotate(duration: 1000.ms),
             title: Text(loginViewOptionsModelList[index].label,
-                style:
-                    Styles.textSize16.copyWith(fontWeight: FontWeight.w700))),
+                    style:
+                        Styles.textSize16.copyWith(fontWeight: FontWeight.w700),
+                    textAlign: TextAlign.center)
+                .animate()
+                .rotate(duration: 1000.ms)),
         separatorBuilder: (BuildContext context, int index) =>
             const CustomVerticalSizedBox(16),
         itemCount: loginViewOptionsModelList.length,

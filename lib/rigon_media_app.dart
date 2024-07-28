@@ -5,11 +5,16 @@ class RigoMediaApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const ScreenUtilInit(
-        designSize: Size(390, 812),
+    return ScreenUtilInit(
+        designSize: const Size(390, 812),
         minTextAdapt: true,
         splitScreenMode: true,
-        child:
-            MaterialApp(debugShowCheckedModeBanner: false, home: LoginView()));
+        builder: (BuildContext context, _) => MultiBlocProvider(
+              providers: [BlocProvider(create: (context) => RouteCubit())],
+              child: MaterialApp(
+                  theme: ThemeData(fontFamily: 'Urbanist'),
+                  debugShowCheckedModeBanner: false,
+                  home: const LoginView()),
+            ));
   }
 }

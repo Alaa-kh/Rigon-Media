@@ -23,6 +23,6 @@ class LoginViewPasswordField extends StatelessWidget {
               hintText: 'Enter password here',
               hintStyle: Styles.titleSmall.copyWith(color: greyClr))),
       const CustomVerticalSizedBox(20)
-    ]);
+    ]).animate().slideX(duration: 1000.ms);
   }
 }

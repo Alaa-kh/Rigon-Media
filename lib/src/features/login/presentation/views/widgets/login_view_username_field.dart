@@ -23,6 +23,6 @@ class LoginViewUsernameField extends StatelessWidget {
             hintStyle: Styles.titleSmall.copyWith(color: greyClr)),
       ),
       const CustomVerticalSizedBox(35),
-    ]);
+    ]).animate().slideX(duration: 1000.ms);
   }
 }

@@ -15,4 +15,8 @@ class IconsAssets {
   static const String calendarIcon = 'assets/icons/calendar.svg';
   static const String memoji2Icon = 'assets/icons/Memoji 2 (2).svg';
   static const String menuIcon = 'assets/icons/menu.svg';
+
+  static const String arrowIcon = 'assets/icons/Arrow.svg';
+  static const String arrow2Icon = 'assets/icons/Arrow (1).svg';
+  static const String rectangle2981Icon = 'assets/icons/Rectangle 2981.svg';
 }

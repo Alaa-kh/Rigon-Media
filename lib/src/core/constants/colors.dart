@@ -16,3 +16,14 @@ const shadesSeaClrLightClr = Color.fromARGB(255, 113, 187, 189);
 
 const pastelRedClr = Color(0xffDB5856);
 const pastelRedClrLightClr = Color.fromARGB(255, 236, 143, 143);
+
+const orangeLightClr = Color(0xfffedfcc);
+const greenLightClr = Color(0xffebf9f5);
+const purpleLightClr = Color(0xfff9f1fb);
+
+const orangeLineClr = Color(0xffFD7722);
+const greenLineClr = Color(0xff5ECEB3);
+const purpleLineClr = Color(0xffd08cdf);
+
+const checkClr = Color(0xff7fd8c2);
+

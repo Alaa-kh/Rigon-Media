@@ -1,6 +1,3 @@
 import 'package:rigon/src/core/constants/packages.dart';
 
-void main() {
-  runApp(const RigoMediaApp());
-}
-
+void main() => runApp(const RigoMediaApp());

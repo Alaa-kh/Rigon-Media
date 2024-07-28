@@ -1,7 +1,7 @@
 import 'package:rigon/src/core/constants/packages.dart';
 
-class ProjectView extends StatelessWidget {
-  const ProjectView({super.key});
+class CalendarView extends StatelessWidget {
+  const CalendarView({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -20,9 +20,9 @@ class ProjectView extends StatelessWidget {
                   )
                 ],
                 leading: const Icon(Icons.menu, size: 24),
-                title: Text('Project Summary',
+                title: Text('Calendar',
                     style: Styles.textSize16
                         .copyWith(fontWeight: FontWeight.w700))),
-            body: const ProjectViewBody()));
+            body: const CalendarViewBody()));
   }
 }
